@@ -48,11 +48,11 @@ radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
 background-color:#282828;
 background-size:16px 16px;
 padding: 30px 60px 30px 60px;
+overflow: auto;
 }
 
 #main-box {
 	background-color: #fff;
-	width: 650px;
 }
 
 .bodyarea {
@@ -60,7 +60,7 @@ padding: 30px 60px 30px 60px;
 	background-color: #fff;
 	padding: 30px 0;
 	margin-top: 20px;
-	height: 850px;
+	padding-bottom: 50px;
 	/*trying this out for portfolio*/
 	width: 650px;
 }
@@ -136,10 +136,52 @@ footer {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	bottom: 0px;
 	padding: 20px;
-	margin-left: -60px;
+	/*margin-left: -60px;*/
 }
 
-#port1 {
-	background-image: url(https://i1.wp.com/www.thegamegal.com/wp-content/uploads/2011/06/hangman-game-3.png?ssl=1);
+.portfolio-pic-block {
+    /*height: 205px;*/
+    /*margin-bottom: 50px;*/
+    /*position: relative;*/
+    width: auto;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.portfolio-pic {
+    /*height: 205px;
+    width: 200px;*/
+    /*margin-bottom: 50px;*/
+    position: relative;
+    width:45%;
+    float:left;
+    margin:2%;
+}
+
+.portfolio-picture {
+   /* height: 300px;
+    width: 300px;*/
+    /*margin-bottom: 50px;*/
+    /*position: relative;*/
+    width:100%;
+}
+
+.portfolio_pic_text_block {
+	background-color: #4aaaa5;
+	z-index:1;
+    width: 100%;
+    height: 40px;
+    /*margin-top: 140px;
+    padding-top: 20px;*/
+    position: relative;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color: #777;
+    text-align: center;
+}
+
+a {
+	background-color: transparent;
 }
 
